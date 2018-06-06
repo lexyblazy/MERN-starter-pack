@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 5000;
 const mongoose = require("mongoose");
 const { DB, SECRET } = require("./config/keys");
 const authRoutes = require("./routes/authRoutes");
+
 // connect to the database;
 mongoose
   .connect(DB)
