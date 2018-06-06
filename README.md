@@ -1,2 +1,2 @@
-# nightlife-cordination-app
+# MERN-starter-pack
 A starter pack for MERN stack applications. 
