@@ -22,7 +22,7 @@ mongoose
   });
 // some helpful middleware to make our lives easier
 app.enable("trust proxy");
-app.use(function(req, res, next) {
+app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
